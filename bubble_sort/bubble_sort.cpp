@@ -30,8 +30,22 @@ void input() {
 
 }
 
+void bubbleSortArray() {	//procedur untuk mengurutkan array dengan metode buble sort
+	for (int i = 1; i < n; i++) {	//looping dengan i dimulai dari 1 hingga n-1
+		if (a[j] > a[j + 1]) {	//jika nilai pada a[j] lebih besar dari a[j+1]
+			int temp = a[j];	//simpan nilai a[j] ke variabel sementara temp
+			a[j] = a[j + 1];	//assign nilai a[j+1] ke a[j]
+			a[j + 1] = temp;	//assign nilai temp ke a[j+1]
+
+		}
+
+	}
+
+}
+
 int main()
 {
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
