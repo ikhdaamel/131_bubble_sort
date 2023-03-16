@@ -66,9 +66,13 @@ void display() {	//procedur untuk menampilkan hasil
 	cout << end1;					//output baris kosong
 }
 
-int main()
-{
-	
+int main(){
+	input();				//memangil procedur read()
+	unsorted();				//memanggil procedur unsorted() dari
+	bubbleSorteArray();		//memanggil procedur bubbleSortArray()
+	display();				//memanggil procedur display()
+
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
