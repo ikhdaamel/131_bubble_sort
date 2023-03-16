@@ -53,7 +53,7 @@ void unsorted() {
 
 	}
 	cout << end1;					//output baris kosong
-}
+} 
 
 int main()
 {
