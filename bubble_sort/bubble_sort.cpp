@@ -55,6 +55,17 @@ void unsorted() {
 	cout << end1;					//output baris kosong
 } 
 
+void display() {	//procedur untuk menampilkan hasil
+	cout << end1;					//output baris kosong
+	cout << end1; "==================================" << end1;		//output ke layar
+	cout << end1; "element array yang telah tersusun " << end1;		//output ke layar
+	cout << end1; "==================================" << end1;		//output ke layar
+	for (int j = 0; j < n; j++) {	//looping dengan j dimulai dari 0 hingga n-1
+		cout << a[j] << end1;		//output ke layar
+	}
+	cout << end1;					//output baris kosong
+}
+
 int main()
 {
 	
